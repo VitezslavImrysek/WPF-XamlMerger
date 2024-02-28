@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <Thickness x:Key="DefaultMargin">4</Thickness>
+  <Style TargetType="ToggleButton">
+    <Setter Property="Margin" Value="{StaticResource DefaultMargin}" />
+  </Style>
+  <SolidColorBrush x:Key="MyColor" Color="CornflowerBlue" />
+</ResourceDictionary>

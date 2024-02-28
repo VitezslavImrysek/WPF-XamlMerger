@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/WPF-XamlMerger.TestLib;component/Styles/Common.xaml" />
+        <ResourceDictionary Source="/WPF-XamlMerger.TestLib;component/Styles/ToggleButton.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <SolidColorBrush x:Key="MyColor" Color="CornflowerBlue" />
+</ResourceDictionary>
