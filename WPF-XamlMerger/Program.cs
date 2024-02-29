@@ -12,10 +12,6 @@ namespace WPF_XamlMerger
 
             var mergerOptions = new XamlMergerOptions()
             {
-                Namespaces = new List<XamlMergerNamespace>() 
-                {
-                    new XamlMergerNamespace(XNamespace.Xmlns + "x", "http://schemas.microsoft.com/winfx/2006/xaml")
-                },
                 ProjectRoot = projectRoot,
                 ProjectSourcePrefix = @"/WPF-XamlMerger.TestLib;component/",
                 Resources = new List<XamlMergerResource>() 

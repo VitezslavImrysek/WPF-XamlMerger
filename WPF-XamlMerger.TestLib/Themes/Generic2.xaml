@@ -1,5 +1,8 @@
 ﻿<ResourceDictionary xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <ResourceDictionary.MergedDictionaries />
+  <!--ResourceDictionary Source: ..\..\..\WPF-XamlMerger.TestLib\Styles\Common.xaml-->
   <Thickness x:Key="DefaultMargin">4</Thickness>
+  <!--ResourceDictionary Source: ..\..\..\WPF-XamlMerger.TestLib\Styles\ToggleButton.xaml-->
   <Style TargetType="ToggleButton">
     <Setter Property="Margin" Value="{StaticResource DefaultMargin}" />
   </Style>
